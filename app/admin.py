@@ -1,5 +1,5 @@
-from saleapp.app.models import Category, Product, UserRoleEnum
-from saleapp.app import app, db
+from app.models import Category, Product, UserRoleEnum
+from app import app, db
 from flask_admin import Admin, BaseView, expose
 from flask_admin.contrib.sqla import ModelView
 from flask_login import logout_user, current_user

@@ -1,5 +1,5 @@
-from saleapp.app.models import Category, Product, User
-from saleapp.app import app
+from app.models import Category, Product, User
+from app import app
 import hashlib
 
 def get_categories():
